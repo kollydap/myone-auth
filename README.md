@@ -66,7 +66,7 @@ If you're learning the same thing, the commit history and issues are meant to be
 ## Getting started (local dev)
 
 ```bash
-git clone https://github.com/<your-username>/myone-auth.git
+git clone https://github.com/kollydap/myone-auth.git
 cd myone-auth
 cp .env.example .env
 docker compose up --build
@@ -113,4 +113,4 @@ MIT — see [`LICENSE`](./LICENSE).
 
 ## Author
 
-**Oladapo** ([Kolawole Oladapo Osagie](https://github.com/<your-username>)) — Backend developer & architect, Lagos, Nigeria.
+**Oladapo** ([Kolawole Oladapo Osagie](https://github.com/kollydap)) — Backend developer & architect, Lagos, Nigeria.
