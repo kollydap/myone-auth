@@ -35,6 +35,7 @@ services:
     volumes:
       - ./src:/app/src          # hot reload — edit locally, see it live
       - ./migrations:/app/migrations
+      - ./tests:/app/tests
     depends_on:
       postgres:
         condition: service_healthy

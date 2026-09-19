@@ -8,7 +8,7 @@ WORKDIR /app
 
 COPY pyproject.toml .
 COPY src ./src
-RUN pip install --no-cache-dir -e .
+RUN pip install --no-cache-dir -e .'[dev]'
 
 COPY . .
 RUN chown -R appuser:appuser /app
