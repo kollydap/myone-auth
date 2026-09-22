@@ -12,7 +12,6 @@ class Settings(BaseSettings):
 
     database_url: SecretStr
     redis_url: str
-    secret_key: SecretStr
     environment: str = "development"
     pool_max_overflow: int = 10
     pool_size: int = 5
